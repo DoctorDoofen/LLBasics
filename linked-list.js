@@ -12,8 +12,8 @@ class LinkedList {
   }
 
   addToHead(val) {
-
     let node1 = new LinkedListNode(val)
+
     node1.next = this.head
     this.head = node1
     this.length++
